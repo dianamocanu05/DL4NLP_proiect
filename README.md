@@ -1,11 +1,15 @@
-# Extracting drug-drug interactions from texts with BioBERT and multiple entity-aware attentions
+# Extracting drug-drug interactions from texts
 
-This problem was approached from multiple methods that can be classified into two big groups: classic machine learning and deep neural networks. From recent studies, we found that best results are achieved by the various architectures of deep neural networks.
+This problem was approached from multiple methods that can be classified into two big groups: classic machine learning and deep neural networks. From recent studies, we found that the various architectures of deep neural networks achieve the best results.
 
-In order to choose one method to be our representative state-of-the-art, we will take into consideration the F1 metric over all the classes as the ordering element. The best result was optained in the article [3] with an F-score(%) of 85.40.
+In order to choose one method to be our representative state-of-the-art, we will consider the F1 metric over all the classes as the ordering element. The best result was obtained in the article [3] with an F-score(%) of 85.40.
 
-The authors used more algorithms, but the winning one was named by them as "PubMedBERT + HKG". This is using the well-known pre-trained BERT language model specialized for medical and biochemistry terms. The training process was done using the largest open-source collection of chemical structures. The HKG abbreviation stands for heterogeneous knowledge graph.
+The authors used more algorithms, but they named the winning one "PubMedBERT + HKG". This is using the well-known pre-trained BERT language model specialized for medical and biochemistry terms. The training process was done using the largest open-source collection of chemical structures. The HKG abbreviation stands for heterogeneous knowledge graph.
 
+The main idea of this model is the preprocessing of the medical articles, the way of text embedding with the scope of giving a simple dense neural network as much information as it can. To achieve that, they combine the above-mentioned methods in the following way: in the embedding lookup layer, they concatenate the output of the BERT's word embedding table with the output of the HKG word embedding table and feed the resulting vector to the classic BERT layer. After the language model layer, the output is then concatenated and sent to a classification network. 
+
+
+<img src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/39/1/10.1093_bioinformatics_btac754/1/btac754f2.jpeg?Expires=1705505680&Signature=LVO5w-n2z2YmrSzMqKnoteC06zcJMeoa0lYdhZLRsTjwW6EqG4NhyaHKqL1WHHNAV6TL4LVdZ1uWVImeK5FGhiwlcC64IbzdaYFaMN36eccy1dDx7LmrmbvlptV5YWduH4wjgpaJQ6UZxKQfRPQix~OtVeXwIy1ols4uhzumflrT9DAvf18vbFuh484NiwtpA648MNkeX0GZI6ebh4RuaesjoqJQbo30H20iATblSOkj0bGlLpemdJji~eHMIiZd-PH6hRUvzFPZ7nCg-EE9lp26S4IENNMa5b6pfGhyEjkjkiBkLgWFV2sFoU-nZKu5BlvtTbk0YWeaX5pKlLSLfA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA">
 
 # Bibliography
 
