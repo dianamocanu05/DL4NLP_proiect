@@ -4,7 +4,7 @@ This problem was approached from multiple methods that can be classified into tw
 
 In order to choose one method to be our representative state-of-the-art, we will take into consideration the F1 metric as the ordering element.
 
-# Biography
+# Bibliography
 
 - [Yu Zhu, Lishuang Li, Hongbin Lu, Anqiao Zhou, Xueyang Qin, Extracting drug-drug interactions from texts with BioBERT and multiple entity-aware attentions, Journal of Biomedical Informatics, Volume 106, 2020](https://www.sciencedirect.com/science/article/pii/S1532046420300794) 
 - [Masaki Asada, Makoto Miwa, Yutaka Sasaki, Using drug descriptions and molecular structures for drug–drug interaction extraction from literature, Bioinformatics, Volume 37, Issue 12, June 2021, Pages 1739–1746](https://doi.org/10.1093/bioinformatics/btaa907)
