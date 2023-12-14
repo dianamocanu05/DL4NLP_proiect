@@ -18,6 +18,8 @@ The main idea of this model is the preprocessing of the medical articles, the wa
 3. [Masaki Asada, Makoto Miwa, Yutaka Sasaki, Integrating heterogeneous knowledge graphs into drug–drug interaction extraction from the literature, Bioinformatics, Volume 39, Issue 1, January 2023, btac754](https://doi.org/10.1093/bioinformatics/btac754)
 4. [Yang, Jie and Ding, Yihao and Long, Siqu and Poon, Josiah and Han, Soyeon Caren, DDI-MuG: Multi-aspect graphs for drug-drug interaction extraction, Frontiers in Digital Health, Volume 5, 2023](https://www.frontiersin.org/articles/10.3389/fdgth.2023.1154133)
 
+## Colab Notebook links:
+- https://colab.research.google.com/drive/1sZUHDog5tqs-7S5MPfpfpz4y-6UlCqFA?usp=sharing
 ## Deadlines:
 
 - December 14th: state of the art
