@@ -20,6 +20,8 @@ The main idea of this model is the preprocessing of the medical articles, the wa
 
 ## Colab Notebook links:
 - https://colab.research.google.com/drive/1sZUHDog5tqs-7S5MPfpfpz4y-6UlCqFA?usp=sharing
+- https://colab.research.google.com/drive/1qbxqiCN5x2dcZn82pOX-9jTlWXr00IZb?usp=sharing
+- https://www.overleaf.com/read/pdsjcvptjmfb#e5a977
 ## Deadlines:
 
 - December 14th: state of the art
